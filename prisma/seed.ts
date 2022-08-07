@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 const fighterData: Prisma.FighterCreateInput[] = [
   {
     name: 'Castor Troy',
-    movie: 'Fece/Off',
+    movie: 'Face/Off',
     strength: 3,
     endurance: 3,
     url: 'https://www.imdb.com/title/tt0119094/?ref_=nm_flmg_act_79',
